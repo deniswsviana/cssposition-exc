@@ -9,20 +9,6 @@ body {
 }
 
 /* styles */
-
-body,
-.grid {
-  margin: 0;
-}
-
-a{
-  text-decoration: none;
-}
-
-/* style */
-
-
-
 body {
   font-family: Arial, Helvetica, sans-serif;
   display: grid;
@@ -127,7 +113,6 @@ img {
   background: #fff;
   padding: 40px;
   border-radius: 0px 0px 4px 0px;
-
 }
 .vantag-items {
   display: grid;
@@ -184,125 +169,3 @@ img {
     text-align: center;
   }
 }
-
-  background: #f7f7f7;
-  
-}
-
-p{
-  font-size: 20px;
-}
-
-.grid {
-  display: grid;
-  justify-content: center;
-  max-width: 1000px;
-  gap: 60px;
-  
-}
-
-.bickraft {
-    justify-self: center;
-    grid-column: 1 /-1;
-    margin-top: 60px;
-}
-
-.subgrid{
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.sobre,
-.prod,
-.loj,
-.contact {
-  background: white;
-  justify-content: center;
-  padding: 15px 30px;
-  border-radius: 4px;
-  font-size: 16px;
-}
-
-
-.bike{
-    background: white;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-     
-}
-
-.barra{
-  position: absolute;
-  width: 60px;
-  height: 4px;
-  background: #ee2211;
-  right: -70px;
-  top: -20px;
-  
-}
-
-.intro{
-  position: relative;
-  display: grid;
-  grid-column: 1;
-  grid-row: 1;
-  justify-items: right;
-  align-content: center;
-  text-align: end;
-  margin: 40px;
-  row-gap: 20px;
-  
-}
-
-.ver{
-  padding: 15px 30px;
-  color: white;
-  background: #ee2211;
-  border-radius: 4px;
-  font-size: 20px;
-}
-
-.bikeimg{
-    width: 100%;
-    grid-column: 2;
-}
-
-.vantag{
-  display: grid;
-  color: #c6c6c6;
-  grid-column: 1;
-  background: #f7f7f7;
-  font-size: 32px;
-  text-align: end;
-  align-items: center;
-  padding: 40px;
-  
-}
-
-.vantag1{
-  display: grid; 
-  grid-template-columns: auto 1fr;
-  padding: 60px;
-  gap: 40px 20px;
-  
-}
-
-.elet {
-  display: grid;
-  grid-column: 2;
-  gap: 10px;
-}
-
-
-.rodap{
-  
-  align-items: center;
-  text-align: center;
-  
-  width: 100%;
-  padding: 40px;
-  background: white;
-}
-
