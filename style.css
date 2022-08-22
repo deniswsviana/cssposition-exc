@@ -3,14 +3,13 @@ h1,
 h2,
 h3,
 p,
-<<<<<<< HEAD
 ul,
 body {
   margin: 0px;
 }
 
 /* styles */
-=======
+
 body,
 .grid {
   margin: 0;
@@ -23,12 +22,11 @@ a{
 /* style */
 
 
->>>>>>> 841689b8c7ed47b54073b70f53d1b8200d99a019
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   display: grid;
   justify-items: center;
-<<<<<<< HEAD
   gap: 3.75rem;
   background: #f7f7f7;
   max-width: 100%;
@@ -186,7 +184,7 @@ img {
     text-align: center;
   }
 }
-=======
+
   background: #f7f7f7;
   
 }
@@ -307,4 +305,4 @@ p{
   padding: 40px;
   background: white;
 }
->>>>>>> 841689b8c7ed47b54073b70f53d1b8200d99a019
+
